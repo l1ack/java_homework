@@ -1,0 +1,187 @@
+[0.003s][warning][gc] -XX:+PrintGCDetails is deprecated. Will use -Xlog:gc* instead.
+[0.011s][info   ][gc] Using Concurrent Mark Sweep
+[0.011s][info   ][gc,heap,coops] Heap address: 0x00000007c0000000, size: 1024 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+正在执行...
+[0.197s][info   ][gc,start     ] GC(0) Pause Young (Allocation Failure)
+[0.197s][info   ][gc,task      ] GC(0) Using 13 workers of 13 for evacuation
+[0.241s][info   ][gc,heap      ] GC(0) ParNew: 278972K->34942K(314560K)
+[0.241s][info   ][gc,heap      ] GC(0) CMS: 0K->62705K(699072K)
+[0.241s][info   ][gc,metaspace ] GC(0) Metaspace: 3896K->3896K(1056768K)
+[0.241s][info   ][gc           ] GC(0) Pause Young (Allocation Failure) 272M->95M(989M) 44.086ms
+[0.241s][info   ][gc,cpu       ] GC(0) User=0.10s Sys=0.33s Real=0.04s
+[0.270s][info   ][gc,start     ] GC(1) Pause Young (Allocation Failure)
+[0.270s][info   ][gc,task      ] GC(1) Using 13 workers of 13 for evacuation
+[0.316s][info   ][gc,heap      ] GC(1) ParNew: 314558K->34939K(314560K)
+[0.316s][info   ][gc,heap      ] GC(1) CMS: 62705K->145116K(699072K)
+[0.316s][info   ][gc,metaspace ] GC(1) Metaspace: 3896K->3896K(1056768K)
+[0.316s][info   ][gc           ] GC(1) Pause Young (Allocation Failure) 368M->175M(989M) 45.275ms
+[0.316s][info   ][gc,cpu       ] GC(1) User=0.11s Sys=0.33s Real=0.04s
+[0.341s][info   ][gc,start     ] GC(2) Pause Young (Allocation Failure)
+[0.341s][info   ][gc,task      ] GC(2) Using 13 workers of 13 for evacuation
+[0.385s][info   ][gc,heap      ] GC(2) ParNew: 314555K->34942K(314560K)
+[0.385s][info   ][gc,heap      ] GC(2) CMS: 145116K->233780K(699072K)
+[0.385s][info   ][gc,metaspace ] GC(2) Metaspace: 3896K->3896K(1056768K)
+[0.385s][info   ][gc           ] GC(2) Pause Young (Allocation Failure) 448M->262M(989M) 44.522ms
+[0.385s][info   ][gc,cpu       ] GC(2) User=0.55s Sys=0.02s Real=0.04s
+[0.411s][info   ][gc,start     ] GC(3) Pause Young (Allocation Failure)
+[0.411s][info   ][gc,task      ] GC(3) Using 13 workers of 13 for evacuation
+[0.451s][info   ][gc,heap      ] GC(3) ParNew: 314558K->34944K(314560K)
+[0.451s][info   ][gc,heap      ] GC(3) CMS: 233780K->312901K(699072K)
+[0.451s][info   ][gc,metaspace ] GC(3) Metaspace: 3896K->3896K(1056768K)
+[0.451s][info   ][gc           ] GC(3) Pause Young (Allocation Failure) 535M->339M(989M) 40.191ms
+[0.451s][info   ][gc,cpu       ] GC(3) User=0.50s Sys=0.02s Real=0.04s
+[0.476s][info   ][gc,start     ] GC(4) Pause Young (Allocation Failure)
+[0.476s][info   ][gc,task      ] GC(4) Using 13 workers of 13 for evacuation
+[0.517s][info   ][gc,heap      ] GC(4) ParNew: 314560K->34944K(314560K)
+[0.517s][info   ][gc,heap      ] GC(4) CMS: 312901K->398451K(699072K)
+[0.517s][info   ][gc,metaspace ] GC(4) Metaspace: 3896K->3896K(1056768K)
+[0.517s][info   ][gc           ] GC(4) Pause Young (Allocation Failure) 612M->423M(989M) 41.894ms
+[0.517s][info   ][gc,cpu       ] GC(4) User=0.52s Sys=0.02s Real=0.05s
+[0.518s][info   ][gc,start     ] GC(5) Pause Initial Mark
+[0.518s][info   ][gc           ] GC(5) Pause Initial Mark 428M->428M(989M) 0.358ms
+[0.518s][info   ][gc,cpu       ] GC(5) User=0.00s Sys=0.00s Real=0.00s
+[0.518s][info   ][gc           ] GC(5) Concurrent Mark
+[0.518s][info   ][gc,task      ] GC(5) Using 4 workers of 4 for marking
+[0.521s][info   ][gc           ] GC(5) Concurrent Mark 3.263ms
+[0.521s][info   ][gc,cpu       ] GC(5) User=0.01s Sys=0.00s Real=0.00s
+[0.521s][info   ][gc           ] GC(5) Concurrent Preclean
+[0.522s][info   ][gc           ] GC(5) Concurrent Preclean 0.727ms
+[0.522s][info   ][gc,cpu       ] GC(5) User=0.00s Sys=0.00s Real=0.00s
+[0.522s][info   ][gc           ] GC(5) Concurrent Abortable Preclean
+[0.542s][info   ][gc,start     ] GC(6) Pause Young (Allocation Failure)
+[0.542s][info   ][gc,task      ] GC(6) Using 13 workers of 13 for evacuation
+[0.588s][info   ][gc,heap      ] GC(6) ParNew: 314560K->34943K(314560K)
+[0.588s][info   ][gc,heap      ] GC(6) CMS: 398451K->489664K(699072K)
+[0.588s][info   ][gc,metaspace ] GC(6) Metaspace: 3896K->3896K(1056768K)
+[0.588s][info   ][gc           ] GC(6) Pause Young (Allocation Failure) 696M->512M(989M) 46.590ms
+[0.588s][info   ][gc,cpu       ] GC(6) User=0.58s Sys=0.03s Real=0.05s
+[0.611s][info   ][gc,start     ] GC(7) Pause Young (Allocation Failure)
+[0.611s][info   ][gc,task      ] GC(7) Using 13 workers of 13 for evacuation
+[0.655s][info   ][gc,heap      ] GC(7) ParNew: 314559K->34942K(314560K)
+[0.655s][info   ][gc,heap      ] GC(7) CMS: 489664K->576339K(699072K)
+[0.655s][info   ][gc,metaspace ] GC(7) Metaspace: 3896K->3896K(1056768K)
+[0.655s][info   ][gc           ] GC(7) Pause Young (Allocation Failure) 785M->596M(989M) 44.126ms
+[0.655s][info   ][gc,cpu       ] GC(7) User=0.55s Sys=0.02s Real=0.04s
+[0.681s][info   ][gc,start     ] GC(8) Pause Young (Allocation Failure)
+[0.681s][info   ][gc,task      ] GC(8) Using 13 workers of 13 for evacuation
+[0.725s][info   ][gc,heap      ] GC(8) ParNew: 314558K->34943K(314560K)
+[0.725s][info   ][gc,heap      ] GC(8) CMS: 576339K->662658K(699072K)
+[0.725s][info   ][gc,metaspace ] GC(8) Metaspace: 3896K->3896K(1056768K)
+[0.725s][info   ][gc           ] GC(8) Pause Young (Allocation Failure) 870M->681M(989M) 43.884ms
+[0.725s][info   ][gc,cpu       ] GC(8) User=0.54s Sys=0.02s Real=0.04s
+[0.726s][info   ][gc           ] GC(5) Concurrent Abortable Preclean 203.984ms
+[0.726s][info   ][gc,cpu       ] GC(5) User=1.74s Sys=0.07s Real=0.20s
+[0.726s][info   ][gc,start     ] GC(5) Pause Remark
+[0.727s][info   ][gc           ] GC(5) Pause Remark 693M->693M(989M) 0.612ms
+[0.727s][info   ][gc,cpu       ] GC(5) User=0.00s Sys=0.00s Real=0.01s
+[0.727s][info   ][gc           ] GC(5) Concurrent Sweep
+[0.728s][info   ][gc           ] GC(5) Concurrent Sweep 1.388ms
+[0.728s][info   ][gc,cpu       ] GC(5) User=0.00s Sys=0.00s Real=0.00s
+[0.728s][info   ][gc           ] GC(5) Concurrent Reset
+[0.730s][info   ][gc           ] GC(5) Concurrent Reset 1.646ms
+[0.730s][info   ][gc,cpu       ] GC(5) User=0.00s Sys=0.00s Real=0.00s
+[0.730s][info   ][gc,heap      ] GC(5) Old: 398451K->494558K(699072K)
+[0.751s][info   ][gc,start     ] GC(9) Pause Young (Allocation Failure)
+[0.751s][info   ][gc,task      ] GC(9) Using 13 workers of 13 for evacuation
+[0.766s][info   ][gc,heap      ] GC(9) ParNew: 314361K->34943K(314560K)
+[0.766s][info   ][gc,heap      ] GC(9) CMS: 494558K->585147K(699072K)
+[0.766s][info   ][gc,metaspace ] GC(9) Metaspace: 3896K->3896K(1056768K)
+[0.766s][info   ][gc           ] GC(9) Pause Young (Allocation Failure) 789M->605M(989M) 15.452ms
+[0.766s][info   ][gc,cpu       ] GC(9) User=0.19s Sys=0.00s Real=0.01s
+[0.766s][info   ][gc,start     ] GC(10) Pause Initial Mark
+[0.766s][info   ][gc           ] GC(10) Pause Initial Mark 611M->611M(989M) 0.129ms
+[0.766s][info   ][gc,cpu       ] GC(10) User=0.00s Sys=0.01s Real=0.00s
+[0.766s][info   ][gc           ] GC(10) Concurrent Mark
+[0.766s][info   ][gc,task      ] GC(10) Using 4 workers of 4 for marking
+[0.768s][info   ][gc           ] GC(10) Concurrent Mark 1.158ms
+[0.768s][info   ][gc,cpu       ] GC(10) User=0.01s Sys=0.00s Real=0.01s
+[0.768s][info   ][gc           ] GC(10) Concurrent Preclean
+[0.768s][info   ][gc           ] GC(10) Concurrent Preclean 0.727ms
+[0.768s][info   ][gc,cpu       ] GC(10) User=0.00s Sys=0.00s Real=0.00s
+[0.768s][info   ][gc           ] GC(10) Concurrent Abortable Preclean
+[0.791s][info   ][gc,start     ] GC(11) Pause Young (Allocation Failure)
+[0.792s][info   ][gc,task      ] GC(11) Using 13 workers of 13 for evacuation
+[0.811s][info   ][gc,heap      ] GC(11) ParNew: 314559K->34943K(314560K)
+[0.811s][info   ][gc,heap      ] GC(11) CMS: 585147K->675059K(699072K)
+[0.811s][info   ][gc,metaspace ] GC(11) Metaspace: 3896K->3896K(1056768K)
+[0.811s][info   ][gc           ] GC(11) Pause Young (Allocation Failure) 878M->693M(989M) 19.755ms
+[0.811s][info   ][gc,cpu       ] GC(11) User=0.25s Sys=0.00s Real=0.02s
+[0.811s][info   ][gc           ] GC(10) Concurrent Abortable Preclean 42.866ms
+[0.811s][info   ][gc,cpu       ] GC(10) User=0.27s Sys=0.00s Real=0.04s
+[0.811s][info   ][gc,start     ] GC(10) Pause Remark
+[0.812s][info   ][gc           ] GC(10) Pause Remark 698M->698M(989M) 0.616ms
+[0.812s][info   ][gc,cpu       ] GC(10) User=0.01s Sys=0.00s Real=0.00s
+[0.812s][info   ][gc           ] GC(10) Concurrent Sweep
+[0.813s][info   ][gc           ] GC(10) Concurrent Sweep 1.369ms
+[0.814s][info   ][gc,cpu       ] GC(10) User=0.00s Sys=0.00s Real=0.00s
+[0.814s][info   ][gc           ] GC(10) Concurrent Reset
+[0.814s][info   ][gc           ] GC(10) Concurrent Reset 0.727ms
+[0.814s][info   ][gc,cpu       ] GC(10) User=0.00s Sys=0.00s Real=0.00s
+[0.814s][info   ][gc,heap      ] GC(10) Old: 585147K->385598K(699072K)
+[0.839s][info   ][gc,start     ] GC(12) Pause Young (Allocation Failure)
+[0.839s][info   ][gc,task      ] GC(12) Using 13 workers of 13 for evacuation
+[0.853s][info   ][gc,heap      ] GC(12) ParNew: 314559K->34943K(314560K)
+[0.853s][info   ][gc,heap      ] GC(12) CMS: 385598K->465347K(699072K)
+[0.853s][info   ][gc,metaspace ] GC(12) Metaspace: 3896K->3896K(1056768K)
+[0.853s][info   ][gc           ] GC(12) Pause Young (Allocation Failure) 683M->488M(989M) 14.022ms
+[0.853s][info   ][gc,cpu       ] GC(12) User=0.18s Sys=0.00s Real=0.01s
+[0.853s][info   ][gc,start     ] GC(13) Pause Initial Mark
+[0.853s][info   ][gc           ] GC(13) Pause Initial Mark 488M->488M(989M) 0.131ms
+[0.853s][info   ][gc,cpu       ] GC(13) User=0.00s Sys=0.00s Real=0.00s
+[0.853s][info   ][gc           ] GC(13) Concurrent Mark
+[0.853s][info   ][gc,task      ] GC(13) Using 4 workers of 4 for marking
+[0.854s][info   ][gc           ] GC(13) Concurrent Mark 1.033ms
+[0.854s][info   ][gc,cpu       ] GC(13) User=0.00s Sys=0.00s Real=0.00s
+[0.854s][info   ][gc           ] GC(13) Concurrent Preclean
+[0.855s][info   ][gc           ] GC(13) Concurrent Preclean 0.723ms
+[0.855s][info   ][gc,cpu       ] GC(13) User=0.01s Sys=0.00s Real=0.00s
+[0.855s][info   ][gc           ] GC(13) Concurrent Abortable Preclean
+[0.879s][info   ][gc,start     ] GC(14) Pause Young (Allocation Failure)
+[0.879s][info   ][gc,task      ] GC(14) Using 13 workers of 13 for evacuation
+[0.894s][info   ][gc,heap      ] GC(14) ParNew: 314559K->34943K(314560K)
+[0.894s][info   ][gc,heap      ] GC(14) CMS: 465347K->552735K(699072K)
+[0.894s][info   ][gc,metaspace ] GC(14) Metaspace: 3896K->3896K(1056768K)
+[0.894s][info   ][gc           ] GC(14) Pause Young (Allocation Failure) 761M->573M(989M) 15.152ms
+[0.894s][info   ][gc,cpu       ] GC(14) User=0.19s Sys=0.00s Real=0.01s
+[0.919s][info   ][gc,start     ] GC(15) Pause Young (Allocation Failure)
+[0.919s][info   ][gc,task      ] GC(15) Using 13 workers of 13 for evacuation
+[0.933s][info   ][gc,heap      ] GC(15) ParNew: 314261K->34943K(314560K)
+[0.933s][info   ][gc,heap      ] GC(15) CMS: 552735K->638718K(699072K)
+[0.933s][info   ][gc,metaspace ] GC(15) Metaspace: 3896K->3896K(1056768K)
+[0.933s][info   ][gc           ] GC(15) Pause Young (Allocation Failure) 846M->657M(989M) 14.658ms
+[0.933s][info   ][gc,cpu       ] GC(15) User=0.18s Sys=0.00s Real=0.01s
+[0.956s][info   ][gc,start     ] GC(16) Pause Young (Allocation Failure)
+[0.956s][info   ][gc,task      ] GC(16) Using 13 workers of 13 for evacuation
+[0.956s][info   ][gc,start     ] GC(17) Pause Full (Allocation Failure)
+[0.956s][info   ][gc           ] GC(13) Concurrent Abortable Preclean 100.956ms
+[0.956s][info   ][gc,cpu       ] GC(13) User=0.45s Sys=0.00s Real=0.10s
+[0.956s][info   ][gc,phases,start] GC(17) Phase 1: Mark live objects
+[0.957s][info   ][gc,phases      ] GC(17) Phase 1: Mark live objects 0.907ms
+[0.957s][info   ][gc,phases,start] GC(17) Phase 2: Compute new object addresses
+[0.958s][info   ][gc,phases      ] GC(17) Phase 2: Compute new object addresses 1.000ms
+[0.958s][info   ][gc,phases,start] GC(17) Phase 3: Adjust pointers
+[0.959s][info   ][gc,phases      ] GC(17) Phase 3: Adjust pointers 0.530ms
+[0.959s][info   ][gc,phases,start] GC(17) Phase 4: Move objects
+[1.002s][info   ][gc,phases      ] GC(17) Phase 4: Move objects 43.506ms
+[1.003s][info   ][gc             ] GC(17) Pause Full (Allocation Failure) 930M->339M(989M) 46.848ms
+[1.003s][info   ][gc,heap        ] GC(16) ParNew: 314559K->0K(314560K)
+[1.003s][info   ][gc,heap        ] GC(16) CMS: 638718K->347762K(699072K)
+[1.003s][info   ][gc,metaspace   ] GC(16) Metaspace: 3896K->3896K(1056768K)
+[1.003s][info   ][gc             ] GC(16) Pause Young (Allocation Failure) 930M->339M(989M) 46.997ms
+[1.003s][info   ][gc,cpu         ] GC(16) User=0.05s Sys=0.00s Real=0.05s
+[1.038s][info   ][gc,start       ] GC(18) Pause Young (Allocation Failure)
+[1.038s][info   ][gc,task        ] GC(18) Using 13 workers of 13 for evacuation
+[1.050s][info   ][gc,heap        ] GC(18) ParNew: 279616K->34942K(314560K)
+[1.050s][info   ][gc,heap        ] GC(18) CMS: 347762K->408815K(699072K)
+[1.050s][info   ][gc,metaspace   ] GC(18) Metaspace: 3896K->3896K(1056768K)
+[1.050s][info   ][gc             ] GC(18) Pause Young (Allocation Failure) 612M->433M(989M) 12.259ms
+[1.050s][info   ][gc,cpu         ] GC(18) User=0.16s Sys=0.00s Real=0.01s
+执行结束!共生成对象次数:20749
+[1.093s][info   ][gc,heap,exit   ] Heap
+[1.093s][info   ][gc,heap,exit   ]  par new generation   total 314560K, used 261559K [0x00000007c0000000, 0x00000007d5550000, 0x00000007d5550000)
+[1.093s][info   ][gc,heap,exit   ]   eden space 279616K,  81% used [0x00000007c0000000, 0x00000007cdd4e6e0, 0x00000007d1110000)
+[1.094s][info   ][gc,heap,exit   ]   from space 34944K,  99% used [0x00000007d1110000, 0x00000007d332f880, 0x00000007d3330000)
+[1.094s][info   ][gc,heap,exit   ]   to   space 34944K,   0% used [0x00000007d3330000, 0x00000007d3330000, 0x00000007d5550000)
+[1.094s][info   ][gc,heap,exit   ]  concurrent mark-sweep generation total 699072K, used 408815K [0x00000007d5550000, 0x0000000800000000, 0x0000000800000000)
+[1.094s][info   ][gc,heap,exit   ]  Metaspace       used 4892K, capacity 4957K, committed 5120K, reserved 1056768K
+[1.094s][info   ][gc,heap,exit   ]   class space    used 405K, capacity 444K, committed 512K, reserved 1048576K

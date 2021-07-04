@@ -1,0 +1,41 @@
+[0.004s][warning][gc] -XX:+PrintGCDetails is deprecated. Will use -Xlog:gc* instead.
+[0.018s][info   ][gc] Using Concurrent Mark Sweep
+[0.018s][info   ][gc,heap,coops] Heap address: 0x0000000700000000, size: 4096 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+正在执行...
+[0.462s][info   ][gc,start     ] GC(0) Pause Young (Allocation Failure)
+[0.463s][info   ][gc,task      ] GC(0) Using 13 workers of 13 for evacuation
+[0.553s][info   ][gc,heap      ] GC(0) ParNew: 886080K->110719K(996800K)
+[0.553s][info   ][gc,heap      ] GC(0) CMS: 0K->94793K(3086784K)
+[0.553s][info   ][gc,metaspace ] GC(0) Metaspace: 3894K->3894K(1056768K)
+[0.553s][info   ][gc           ] GC(0) Pause Young (Allocation Failure) 865M->200M(3987M) 90.769ms
+[0.553s][info   ][gc,cpu       ] GC(0) User=0.20s Sys=0.69s Real=0.09s
+[0.663s][info   ][gc,start     ] GC(1) Pause Young (Allocation Failure)
+[0.663s][info   ][gc,task      ] GC(1) Using 13 workers of 13 for evacuation
+[0.768s][info   ][gc,heap      ] GC(1) ParNew: 996799K->110718K(996800K)
+[0.768s][info   ][gc,heap      ] GC(1) CMS: 94793K->242248K(3086784K)
+[0.768s][info   ][gc,metaspace ] GC(1) Metaspace: 3894K->3894K(1056768K)
+[0.768s][info   ][gc           ] GC(1) Pause Young (Allocation Failure) 1066M->344M(3987M) 104.722ms
+[0.768s][info   ][gc,cpu       ] GC(1) User=0.19s Sys=0.81s Real=0.11s
+[0.847s][info   ][gc,start     ] GC(2) Pause Young (Allocation Failure)
+[0.847s][info   ][gc,task      ] GC(2) Using 13 workers of 13 for evacuation
+[0.920s][info   ][gc,heap      ] GC(2) ParNew: 996798K->110720K(996800K)
+[0.920s][info   ][gc,heap      ] GC(2) CMS: 242248K->393871K(3086784K)
+[0.920s][info   ][gc,metaspace ] GC(2) Metaspace: 3894K->3894K(1056768K)
+[0.920s][info   ][gc           ] GC(2) Pause Young (Allocation Failure) 1210M->492M(3987M) 73.082ms
+[0.920s][info   ][gc,cpu       ] GC(2) User=0.90s Sys=0.04s Real=0.07s
+[1.014s][info   ][gc,start     ] GC(3) Pause Young (Allocation Failure)
+[1.014s][info   ][gc,task      ] GC(3) Using 13 workers of 13 for evacuation
+[1.083s][info   ][gc,heap      ] GC(3) ParNew: 996800K->110720K(996800K)
+[1.083s][info   ][gc,heap      ] GC(3) CMS: 393871K->549263K(3086784K)
+[1.083s][info   ][gc,metaspace ] GC(3) Metaspace: 3894K->3894K(1056768K)
+[1.083s][info   ][gc           ] GC(3) Pause Young (Allocation Failure) 1358M->644M(3987M) 68.812ms
+[1.083s][info   ][gc,cpu       ] GC(3) User=0.80s Sys=0.07s Real=0.07s
+执行结束!共生成对象次数:16493
+[1.105s][info   ][gc,heap,exit ] Heap
+[1.105s][info   ][gc,heap,exit ]  par new generation   total 996800K, used 163748K [0x0000000700000000, 0x0000000743990000, 0x0000000743990000)
+[1.105s][info   ][gc,heap,exit ]   eden space 886080K,   5% used [0x0000000700000000, 0x00000007033c9070, 0x0000000736150000)
+[1.105s][info   ][gc,heap,exit ]   from space 110720K, 100% used [0x0000000736150000, 0x000000073cd70000, 0x000000073cd70000)
+[1.105s][info   ][gc,heap,exit ]   to   space 110720K,   0% used [0x000000073cd70000, 0x000000073cd70000, 0x0000000743990000)
+[1.105s][info   ][gc,heap,exit ]  concurrent mark-sweep generation total 3086784K, used 549263K [0x0000000743990000, 0x0000000800000000, 0x0000000800000000)
+[1.105s][info   ][gc,heap,exit ]  Metaspace       used 4909K, capacity 5021K, committed 5376K, reserved 1056768K
+[1.105s][info   ][gc,heap,exit ]   class space    used 405K, capacity 444K, committed 512K, reserved 1048576K

@@ -1,0 +1,34 @@
+[0.003s][warning][gc] -XX:+PrintGCDetails is deprecated. Will use -Xlog:gc* instead.
+[0.018s][info   ][gc] Using Concurrent Mark Sweep
+[0.018s][info   ][gc,heap,coops] Heap address: 0x0000000700000000, size: 4096 MB, Compressed Oops mode: Zero based, Oop shift amount: 3
+正在执行...
+[0.469s][info   ][gc,start     ] GC(0) Pause Young (Allocation Failure)
+[0.470s][info   ][gc,task      ] GC(0) Using 13 workers of 13 for evacuation
+[0.577s][info   ][gc,heap      ] GC(0) ParNew: 886080K->110719K(996800K)
+[0.577s][info   ][gc,heap      ] GC(0) CMS: 0K->105135K(3086784K)
+[0.577s][info   ][gc,metaspace ] GC(0) Metaspace: 3894K->3894K(1056768K)
+[0.577s][info   ][gc           ] GC(0) Pause Young (Allocation Failure) 865M->210M(3987M) 108.113ms
+[0.577s][info   ][gc,cpu       ] GC(0) User=0.23s Sys=0.67s Real=0.11s
+[0.749s][info   ][gc,start     ] GC(1) Pause Young (Allocation Failure)
+[0.749s][info   ][gc,task      ] GC(1) Using 13 workers of 13 for evacuation
+[0.863s][info   ][gc,heap      ] GC(1) ParNew: 996799K->110720K(996800K)
+[0.863s][info   ][gc,heap      ] GC(1) CMS: 105135K->259805K(3086784K)
+[0.863s][info   ][gc,metaspace ] GC(1) Metaspace: 3894K->3894K(1056768K)
+[0.863s][info   ][gc           ] GC(1) Pause Young (Allocation Failure) 1076M->361M(3987M) 113.709ms
+[0.863s][info   ][gc,cpu       ] GC(1) User=0.22s Sys=0.76s Real=0.12s
+[0.952s][info   ][gc,start     ] GC(2) Pause Young (Allocation Failure)
+[0.952s][info   ][gc,task      ] GC(2) Using 13 workers of 13 for evacuation
+[1.049s][info   ][gc,heap      ] GC(2) ParNew: 996800K->110720K(996800K)
+[1.049s][info   ][gc,heap      ] GC(2) CMS: 259805K->409628K(3086784K)
+[1.049s][info   ][gc,metaspace ] GC(2) Metaspace: 3894K->3894K(1056768K)
+[1.049s][info   ][gc           ] GC(2) Pause Young (Allocation Failure) 1227M->508M(3987M) 97.640ms
+[1.050s][info   ][gc,cpu       ] GC(2) User=1.21s Sys=0.04s Real=0.09s
+执行结束!共生成对象次数:13640
+[1.102s][info   ][gc,heap,exit ] Heap
+[1.102s][info   ][gc,heap,exit ]  par new generation   total 996800K, used 459123K [0x0000000700000000, 0x0000000743990000, 0x0000000743990000)
+[1.102s][info   ][gc,heap,exit ]   eden space 886080K,  39% used [0x0000000700000000, 0x000000071543cc98, 0x0000000736150000)
+[1.102s][info   ][gc,heap,exit ]   from space 110720K, 100% used [0x000000073cd70000, 0x0000000743990000, 0x0000000743990000)
+[1.102s][info   ][gc,heap,exit ]   to   space 110720K,   0% used [0x0000000736150000, 0x0000000736150000, 0x000000073cd70000)
+[1.102s][info   ][gc,heap,exit ]  concurrent mark-sweep generation total 3086784K, used 409628K [0x0000000743990000, 0x0000000800000000, 0x0000000800000000)
+[1.102s][info   ][gc,heap,exit ]  Metaspace       used 4907K, capacity 5021K, committed 5376K, reserved 1056768K
+[1.102s][info   ][gc,heap,exit ]   class space    used 405K, capacity 444K, committed 512K, reserved 1048576K
